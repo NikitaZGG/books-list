@@ -23,7 +23,7 @@ function Home({ initialBooks, loading }) {
           </Link>
         </div>
         <img
-          className="max-w-2xl w-full max-h-md h-full"
+          className="w-full max-h-md h-full md:w-120 lg:w-2xl "
           src="book.png"
           alt="1"
         />
