@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+body {
+  background-color: #d6d6d6;
+  font-family: "Segoe UI", "Roboto", system-ui, sans-serif;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+button {
+  font-family: inherit;
+}
