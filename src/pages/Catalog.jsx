@@ -30,7 +30,7 @@ function Catalog({ initialBooks, loading }) {
   }, [initialBooks, search, category, sorty]);
 
   return (
-    <main className="max-w-6xl mx-auto py-8 px-2 flex flex-col md:flex-row  md:gap-9">
+    <div className="max-w-6xl mx-auto py-8 px-2 flex flex-col md:flex-row  md:gap-9">
       <div className="hidden md:block">
         <Filter
           sorty={sorty}
@@ -87,7 +87,7 @@ function Catalog({ initialBooks, loading }) {
               className="self-start text-2xl mb-2"
               onClick={() => setMobileFilterOpen(false)}
             >
-              &times
+              X
             </button>
             <h2 className="text-xl font-bold mb-4">Фильтр</h2>
             <Filter
@@ -99,7 +99,7 @@ function Catalog({ initialBooks, loading }) {
           </div>
         </>
       )}
-    </main>
+    </div>
   );
 }
 
